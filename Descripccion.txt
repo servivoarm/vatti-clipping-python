@@ -20,3 +20,10 @@ Fecha: 3 de julio del 2025
 ==================================
 
 Algoritmo de Vatti programado en python
+
+Este proyecto muestra cómo usar el algoritmo de recorte de vatti (Vatti Clipping) utilizando la biblioteca `pyclipper` en Python
+
+## Instalación
+
+'''bash
+pip install -r requirementes.txt
