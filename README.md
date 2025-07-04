@@ -16,7 +16,16 @@ Ambos ejemplos muestran cómo obtener la intersección de las figuras utilizando
 Instalar dependencias con:
 
 bash
-pip install -r requirements.txt
+pip install -r requirements
+> ⚠️ Asegúrate de tener `Tkinter` instalado para usar el modo interactivo (`draw_and_clip.py`).
+> En Windows, viene por defecto. Si tienes problemas, ejecuta:
+> 
+> ```bash
+> python -m tkinter
+> ```
+> 
+> Si no aparece una ventana, instala `tkinter` desde tu gestor de paquetes o reinstala Python con soporte para `tk`.
+
 
 ## Presentación 
 
