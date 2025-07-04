@@ -1,0 +1,2 @@
+matplotlib>=3.7.0
+pyclipper>=1.2.1
