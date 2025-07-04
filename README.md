@@ -18,7 +18,8 @@ Instalar dependencias con:
 bash
 pip install -r requirements.txt
 
-=========================================================
+## Presentación 
+
 Universidad Tecnologica de Panamá
 Lic. en Ingenieria de Sistemas y Computación
 
@@ -38,5 +39,5 @@ Grupo: 1IL131
 
 Fecha: 3 de julio del 2025
 
-======================================================
+
 
