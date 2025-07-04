@@ -1,5 +1,5 @@
 import matplotlib
-matplotlib.use('TkAgg')  # <- 👈 Esta línea es CLAVE
+matplotlib.use('TkAgg')
 
 import matplotlib.pyplot as plt
 import pyclipper
@@ -77,7 +77,7 @@ def onkey(event):
         drawing_subject = not drawing_subject
         redraw()
 
-    elif event.key == 'enter':
+    elif event.key == 'enter': # Da el resultado de la interseccion de las dos dibujos
         if len(subject_polygon) < 3 or len(clip_polygon) < 3:
             print("Error, faltan poligonos validos")
             return
